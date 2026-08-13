@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 function Baseprice(age, moviePrice){
     let finalprice = 0;
     if(age < 12){
-       finalprice = moviePrice - 50; 
+       finalprice = moviePrice - 50;
     }
     else if(age >= 12 && age <= 64){
         finalprice = moviePrice;
